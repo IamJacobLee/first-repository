@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE38DBA2C3932010079FBAE /* jokesapp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DB92C3932010079FBAE /* jokesapp2App.swift */; };
+		3FE38DBC2C3932010079FBAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DBB2C3932010079FBAE /* ContentView.swift */; };
+		3FE38DBE2C3932030079FBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DBD2C3932030079FBAE /* Assets.xcassets */; };
+		3FE38DC12C3932030079FBAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38DC02C3932030079FBAE /* Preview Assets.xcassets */; };
+		3FE38DCB2C3932030079FBAE /* jokesapp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DCA2C3932030079FBAE /* jokesapp2Tests.swift */; };
+		3FE38DD52C3932030079FBAE /* jokesapp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DD42C3932030079FBAE /* jokesapp2UITests.swift */; };
+		3FE38DD72C3932030079FBAE /* jokesapp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38DD62C3932030079FBAE /* jokesapp2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE38DC72C3932030079FBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE38DAE2C3932010079FBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE38DB52C3932010079FBAE;
+			remoteInfo = jokesapp2;
+		};
+		3FE38DD12C3932030079FBAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE38DAE2C3932010079FBAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE38DB52C3932010079FBAE;
+			remoteInfo = jokesapp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FE38DB62C3932010079FBAE /* jokesapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jokesapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE38DB92C3932010079FBAE /* jokesapp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesapp2App.swift; sourceTree = "<group>"; };
+		3FE38DBB2C3932010079FBAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FE38DBD2C3932030079FBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE38DC02C3932030079FBAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FE38DC62C3932030079FBAE /* jokesapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jokesapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE38DCA2C3932030079FBAE /* jokesapp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesapp2Tests.swift; sourceTree = "<group>"; };
+		3FE38DD02C3932030079FBAE /* jokesapp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jokesapp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE38DD42C3932030079FBAE /* jokesapp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesapp2UITests.swift; sourceTree = "<group>"; };
+		3FE38DD62C3932030079FBAE /* jokesapp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesapp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE38DB32C3932010079FBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE38DC32C3932030079FBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE38DCD2C3932030079FBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE38DAD2C3932010079FBAE = {
+			isa = PBXGroup;
+			children = (
+				3FE38DB82C3932010079FBAE /* jokesapp2 */,
+				3FE38DC92C3932030079FBAE /* jokesapp2Tests */,
+				3FE38DD32C3932030079FBAE /* jokesapp2UITests */,
+				3FE38DB72C3932010079FBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE38DB72C3932010079FBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DB62C3932010079FBAE /* jokesapp2.app */,
+				3FE38DC62C3932030079FBAE /* jokesapp2Tests.xctest */,
+				3FE38DD02C3932030079FBAE /* jokesapp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE38DB82C3932010079FBAE /* jokesapp2 */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DB92C3932010079FBAE /* jokesapp2App.swift */,
+				3FE38DBB2C3932010079FBAE /* ContentView.swift */,
+				3FE38DBD2C3932030079FBAE /* Assets.xcassets */,
+				3FE38DBF2C3932030079FBAE /* Preview Content */,
+			);
+			path = jokesapp2;
+			sourceTree = "<group>";
+		};
+		3FE38DBF2C3932030079FBAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DC02C3932030079FBAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FE38DC92C3932030079FBAE /* jokesapp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DCA2C3932030079FBAE /* jokesapp2Tests.swift */,
+			);
+			path = jokesapp2Tests;
+			sourceTree = "<group>";
+		};
+		3FE38DD32C3932030079FBAE /* jokesapp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE38DD42C3932030079FBAE /* jokesapp2UITests.swift */,
+				3FE38DD62C3932030079FBAE /* jokesapp2UITestsLaunchTests.swift */,
+			);
+			path = jokesapp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE38DB52C3932010079FBAE /* jokesapp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE38DDA2C3932030079FBAE /* Build configuration list for PBXNativeTarget "jokesapp2" */;
+			buildPhases = (
+				3FE38DB22C3932010079FBAE /* Sources */,
+				3FE38DB32C3932010079FBAE /* Frameworks */,
+				3FE38DB42C3932010079FBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jokesapp2;
+			productName = jokesapp2;
+			productReference = 3FE38DB62C3932010079FBAE /* jokesapp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE38DC52C3932030079FBAE /* jokesapp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE38DDD2C3932030079FBAE /* Build configuration list for PBXNativeTarget "jokesapp2Tests" */;
+			buildPhases = (
+				3FE38DC22C3932030079FBAE /* Sources */,
+				3FE38DC32C3932030079FBAE /* Frameworks */,
+				3FE38DC42C3932030079FBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE38DC82C3932030079FBAE /* PBXTargetDependency */,
+			);
+			name = jokesapp2Tests;
+			productName = jokesapp2Tests;
+			productReference = 3FE38DC62C3932030079FBAE /* jokesapp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FE38DCF2C3932030079FBAE /* jokesapp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE38DE02C3932030079FBAE /* Build configuration list for PBXNativeTarget "jokesapp2UITests" */;
+			buildPhases = (
+				3FE38DCC2C3932030079FBAE /* Sources */,
+				3FE38DCD2C3932030079FBAE /* Frameworks */,
+				3FE38DCE2C3932030079FBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE38DD22C3932030079FBAE /* PBXTargetDependency */,
+			);
+			name = jokesapp2UITests;
+			productName = jokesapp2UITests;
+			productReference = 3FE38DD02C3932030079FBAE /* jokesapp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE38DAE2C3932010079FBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3FE38DB52C3932010079FBAE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3FE38DC52C3932030079FBAE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3FE38DB52C3932010079FBAE;
+					};
+					3FE38DCF2C3932030079FBAE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3FE38DB52C3932010079FBAE;
+					};
+				};
+			};
+			buildConfigurationList = 3FE38DB12C3932010079FBAE /* Build configuration list for PBXProject "jokesapp2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE38DAD2C3932010079FBAE;
+			productRefGroup = 3FE38DB72C3932010079FBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE38DB52C3932010079FBAE /* jokesapp2 */,
+				3FE38DC52C3932030079FBAE /* jokesapp2Tests */,
+				3FE38DCF2C3932030079FBAE /* jokesapp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE38DB42C3932010079FBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE38DC12C3932030079FBAE /* Preview Assets.xcassets in Resources */,
+				3FE38DBE2C3932030079FBAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE38DC42C3932030079FBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE38DCE2C3932030079FBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE38DB22C3932010079FBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE38DBC2C3932010079FBAE /* ContentView.swift in Sources */,
+				3FE38DBA2C3932010079FBAE /* jokesapp2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE38DC22C3932030079FBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE38DCB2C3932030079FBAE /* jokesapp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE38DCC2C3932030079FBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE38DD72C3932030079FBAE /* jokesapp2UITestsLaunchTests.swift in Sources */,
+				3FE38DD52C3932030079FBAE /* jokesapp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE38DC82C3932030079FBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE38DB52C3932010079FBAE /* jokesapp2 */;
+			targetProxy = 3FE38DC72C3932030079FBAE /* PBXContainerItemProxy */;
+		};
+		3FE38DD22C3932030079FBAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE38DB52C3932010079FBAE /* jokesapp2 */;
+			targetProxy = 3FE38DD12C3932030079FBAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FE38DD82C3932030079FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FE38DD92C3932030079FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE38DDB2C3932030079FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jokesapp2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Lee.jokesapp2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FE38DDC2C3932030079FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jokesapp2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Lee.jokesapp2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FE38DDE2C3932030079FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Lee.jokesapp2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jokesapp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jokesapp2";
+			};
+			name = Debug;
+		};
+		3FE38DDF2C3932030079FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Lee.jokesapp2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jokesapp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jokesapp2";
+			};
+			name = Release;
+		};
+		3FE38DE12C3932030079FBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Lee.jokesapp2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jokesapp2;
+			};
+			name = Debug;
+		};
+		3FE38DE22C3932030079FBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Lee.jokesapp2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jokesapp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE38DB12C3932010079FBAE /* Build configuration list for PBXProject "jokesapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE38DD82C3932030079FBAE /* Debug */,
+				3FE38DD92C3932030079FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE38DDA2C3932030079FBAE /* Build configuration list for PBXNativeTarget "jokesapp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE38DDB2C3932030079FBAE /* Debug */,
+				3FE38DDC2C3932030079FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE38DDD2C3932030079FBAE /* Build configuration list for PBXNativeTarget "jokesapp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE38DDE2C3932030079FBAE /* Debug */,
+				3FE38DDF2C3932030079FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE38DE02C3932030079FBAE /* Build configuration list for PBXNativeTarget "jokesapp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE38DE12C3932030079FBAE /* Debug */,
+				3FE38DE22C3932030079FBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE38DAE2C3932010079FBAE /* Project object */;
+}
